@@ -37,9 +37,20 @@
 // * scrivere quante partite ha vinto il giocatore
 // * scrivere quante partite ha vinto il computer
 
-let numeroGenerato = document.getElementById(`numeroGenerato`);
+let numeroGeneratoGiocatore = document.getElementById(`numeroGeneratoGiocatore`);
+let numeroGeneratoComputer = document.getElementById(`numeroGeneratoComputer`);
+let punteggio = document.getElementById(`punteggio`);
 
 function genera(){
 
- document.getElementById(`numeroGenerato`).innerHTML=   Math.floor(Math.random() * 6) +1;
+ document.getElementById(`numeroGeneratoGiocatore`).innerHTML=   Math.floor(Math.random() * 6) +1;
+ document.getElementById(`numeroGeneratoComputer`).innerHTML=   Math.floor(Math.random() * 6) +1;
+
+ if( numeroGeneratoComputer > numeroGeneratoGiocatore){
+ 
 }
+
+
+}
+
+
